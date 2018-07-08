@@ -1,0 +1,20 @@
+/* 
+    Created on : 02/04/2018, 20:48:57
+    Author     : luizlaljr
+*/
+.section-head, .section-footer{
+    background-color: #293F95;
+}
+
+#cardEmp{
+    background-color: #FF1493;
+}
+
+.blockquote{
+    padding-top: 30px;
+}
+
+.col-sm-2{
+    background-color: #e9e9e9; 
+    border-style: outset;
+}

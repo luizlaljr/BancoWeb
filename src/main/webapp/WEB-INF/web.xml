@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ClienteController</servlet-name>
+        <servlet-class>com.mycompany.bancoweb.controller.ClienteController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>com.mycompany.bancoweb.controller.LoginController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DepositoController</servlet-name>
+        <servlet-class>com.mycompany.bancoweb.controller.DepositoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SaldoController</servlet-name>
+        <servlet-class>com.mycompany.bancoweb.controller.SaldoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SaqueController</servlet-name>
+        <servlet-class>com.mycompany.bancoweb.controller.SaqueController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ExtratoController</servlet-name>
+        <servlet-class>com.mycompany.bancoweb.controller.ExtratoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PagamentoController</servlet-name>
+        <servlet-class>com.mycompany.bancoweb.controller.PagamentoController</servlet-class>
+    </servlet>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

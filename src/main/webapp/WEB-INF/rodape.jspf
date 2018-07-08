@@ -1,0 +1,19 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="section-footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-lg-12 blockquote text-center text-white ">
+                <h5>Seu Banco na Web!</h5>
+                <p class="blockquote-footer text-white">Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="js/funcao_mask.js"></script>
+<script type="text/javascript" src="js/funcao_validate.js"></script>
+
